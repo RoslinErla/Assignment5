@@ -9,14 +9,14 @@ second =2
 third =3 
 
 
-for i in range (n+1):
+for i in range (n):
     if i==0:
-        print(1)
+        print(first)
     if i==1:
-        print(2)
-    if i == 3:
-        print(3)
-    if i > 3:
+        print(second)
+    if i == 2:
+        print(third)
+    if i >= 3:
         #We know that the sequence works by adding together the three integers before so we calculate that.
         #Then we update the variables first, second, and third. Now all of them move up. The second integer is now the first
         #the third integer is now the second, and the fourth integer is now the third. 
